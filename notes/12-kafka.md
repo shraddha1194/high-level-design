@@ -1,5 +1,6 @@
 # Kafka
 
+## Request Response Model and need for Persistent Queues
 Request-Response model is usually a sync model. We wait for response from the server once we make a request.
 Now suppose if we made a request to send 1000 mails does it make sense to wait for all the 1000 mails to be sent?
 In usual scenario no, it is simply a waste of our time. 

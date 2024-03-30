@@ -12,9 +12,9 @@ How is it possible?
 The Answer is through Gateway machine.
 Gateway machine will run on the registered IP address of delic.io.us.
 This machine's responsibility is only one thing, to take the request that comes from the outside world and forward it to one of the internal machines.
-Mostly used for security reasons to see if requets comes from a server which is blocked etc.
+Mostly used for security reasons to see if requests come from a server which is blocked, etc.
 
-Gateway usually follow Active Passive Gatewaying—There is an active machine that actively takes up all the requests and performs the task, in case this machine is broken or down then passive machine takes up the role of active machine and becomes the new active machine. The IP address will not change.
+Gateway usually follows Active Passive Gateway—There is an active machine that actively takes up all the requests and performs the task, in case this machine is broken or down, then passive machine takes up the role of active machine and becomes the new active machine. The IP address will not change.
 
 We can have gateway as a service or sharded gateway or multiple gateway machines.
 
